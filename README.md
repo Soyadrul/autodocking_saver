@@ -13,5 +13,5 @@ source ~/.bashrc && \
 rosdep update && \
 rosdep install -i --from-path src --rosdistro jazzy -y -r && \
 colcon build --symlink-install && \
-source install/setup.bash && \
+source install/setup.bash
 ```
