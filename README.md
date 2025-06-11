@@ -5,9 +5,13 @@ Start the container
 docker compose run --rm raspberry
 ```
 
+Change directory
+```bash
+cd sensing-rigs-ros2/ros2_ws
+```
+
 Compile
 ```bash
-cd sensing-rigs-ros2/ros2_ws && \
 echo "export PIP_BREAK_SYSTEM_PACKAGES=1" >> ~/.bashrc && \
 source ~/.bashrc && \
 rosdep update && \
