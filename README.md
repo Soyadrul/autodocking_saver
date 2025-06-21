@@ -12,10 +12,14 @@ source ~/.bashrc && \
 cd sensing-rigs-ros2/ros2_ws
 ```
 
-Compile
+Install packages
 ```bash
 rosdep update && \
-rosdep install -i --from-path src --rosdistro jazzy -y -r && \
+rosdep install -i --from-path src --rosdistro jazzy -y -r
+```
+
+Compile
+```bash
 colcon build --symlink-install && \
 source install/setup.bash
 ```
